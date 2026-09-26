@@ -25,9 +25,7 @@ class Program
 
         Console.WriteLine("* УСЛОВИЕ:                                                                  *");
 
-        Console.WriteLine("* Написать программу, которая вычесляет выражение (x + y) / (1 + x)  *");
-
-        Console.WriteLine("* одинаковых массивов по длинне.                                           *");
+        Console.WriteLine("* Написать программу, которая вычесляет выражение (x + y) / (1 + x)  *"); 
 
         Console.WriteLine("*                                                                           *");
 
