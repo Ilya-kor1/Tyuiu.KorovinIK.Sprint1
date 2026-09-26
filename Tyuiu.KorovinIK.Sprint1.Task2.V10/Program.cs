@@ -46,7 +46,7 @@ namespace Tyuiu.KorovinIK.Sprint1.Task2.V10
 
             Console.WriteLine("*****************************************************************************");
 
-            Console.WriteLine($"Расстояние в дюймах = {ds.ConvertMetreToInchs(x):F3}");
+            Console.WriteLine("Расстояние в дюймах = " + ds.ConvertMetreToInchs(x));
 
             Console.ReadLine();
         }
