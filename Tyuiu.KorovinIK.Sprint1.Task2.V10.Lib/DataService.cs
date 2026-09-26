@@ -5,7 +5,7 @@ namespace Tyuiu.KorovinIK.Sprint1.Task2.V10.Lib
     {
         public double ConvertMetreToInchs(int value)
         {
-            return value * 39.37;
+            return value * 39.3701  ;
 
 
         }
