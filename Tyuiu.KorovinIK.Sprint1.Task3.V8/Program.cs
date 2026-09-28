@@ -56,7 +56,7 @@ namespace Tyuiu.KorovinIK.Sprint1.Task3.V8
 
             Console.WriteLine("Сумма по окончании срока вклада: = " + ds.IncomeAmount(x, y, z));
 
-            Console.ReadLine();
+            Console.ReadLine(); 
         }
 
     }
