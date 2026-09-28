@@ -1,5 +1,5 @@
-﻿using Tyuiu.KorovinIK.Sprint1.Task2.V8.Lib;
-namespace Tyuiu.KorovinIK.Sprint1.Task2.V8.Test
+﻿using Tyuiu.KorovinIK.Sprint1.Task3.V8.Lib;
+namespace Tyuiu.KorovinIK.Sprint1.Task3.V8.Test
 {
     [TestClass]
     public sealed class DataServiceTest
