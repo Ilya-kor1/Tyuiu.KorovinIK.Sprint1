@@ -1,5 +1,5 @@
-﻿using Tyuiu.KorovinIK.Sprint1.Task3.V10.Lib;
-namespace Tyuiu.KorovinIK.Sprint1.Task3.V10
+﻿using Tyuiu.KorovinIK.Sprint1.Task3.V8.Lib;
+namespace Tyuiu.KorovinIK.Sprint1.Task3.V8
 {
     class Program
     {
@@ -13,11 +13,11 @@ namespace Tyuiu.KorovinIK.Sprint1.Task3.V10
 
             Console.WriteLine("* Спринт #1                                                               c *");
 
-            Console.WriteLine("* Тема: Арифметические операторы C#                          *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                          *");
 
-            Console.WriteLine("* Задание #2                                                               *");
+            Console.WriteLine("* Задание #3                                                              *");
 
-            Console.WriteLine("* Вариант #10                                                               *");
+            Console.WriteLine("* Вариант #8                                                               *");
 
             Console.WriteLine("* Выполнил: Коровин Илья Константиновичч | ИСТНб-26-1                       *");
 
@@ -25,7 +25,7 @@ namespace Tyuiu.KorovinIK.Sprint1.Task3.V10
 
             Console.WriteLine("* УСЛОВИЕ:                                                                  *");
 
-            Console.WriteLine("*  Написать программу, которая запрашивает у пользователя исходные данные, выполняет указанные расчёты и печатает результат на экране.  *");
+            Console.WriteLine("*  Написать программу вычисления величины дохода по вкладу.   *");
 
             Console.WriteLine("*                                                                           *");
 
@@ -35,10 +35,18 @@ namespace Tyuiu.KorovinIK.Sprint1.Task3.V10
 
             Console.WriteLine("*****************************************************************************");
 
-            int x;
+            double x, y, z;
 
-            Console.WriteLine("Расстояние в метрах (целое число)");
-            x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Величина вклада (руб.)");
+            x = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Срок вклада (дней)");
+            y = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Процентная ставка (годовых)");
+            z = Convert.ToDouble(Console.ReadLine());
+
+
 
             Console.WriteLine("*****************************************************************************");
 
@@ -46,9 +54,10 @@ namespace Tyuiu.KorovinIK.Sprint1.Task3.V10
 
             Console.WriteLine("*****************************************************************************");
 
-            Console.WriteLine("Расстояние в дюймах = " + ds.ConvertMetreToInchs(x));
+            Console.WriteLine("Сумма по окончании срока вклада: = " + ds.IncomeAmount(x, y, z));
 
             Console.ReadLine();
         }
+
     }
 }
