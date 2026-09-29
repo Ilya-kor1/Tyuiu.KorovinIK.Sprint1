@@ -1,5 +1,5 @@
-﻿using Tyuiu.KorovinIK.Sprint1.Tas4.V26.Lib;
-namespace Tyuiu.KorovinIK.Sprint1.Tas4.V26.Test
+﻿using Tyuiu.KorovinIK.Sprint1.Task4.V26.Lib;
+namespace Tyuiu.KorovinIK.Sprint1.Task4.V26
 {
     class Program
     {
@@ -51,7 +51,7 @@ namespace Tyuiu.KorovinIK.Sprint1.Tas4.V26.Test
 
             Console.WriteLine("*****************************************************************************");
 
-            Console.WriteLine("(arctg(x)+y)/e^(x+y) =  " + ds.Calculate(x, y ));
+            Console.WriteLine("(arctg(x)+y)/e^(x+y) =  " + ds.Calculate(x, y));
 
             Console.ReadLine();
         }

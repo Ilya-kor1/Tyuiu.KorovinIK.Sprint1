@@ -1,5 +1,5 @@
-﻿using Tyuiu.KorovinIK.Sprint1.Tas4.V26.Lib;
-namespace Tyuiu.KorovinIK.Sprint1.Tas4.V26.Test
+﻿using Tyuiu.KorovinIK.Sprint1.Task4.V26.Lib;
+namespace Tyuiu.KorovinIK.Sprint1.Task4.V26.Test
 {
     [TestClass]
     public sealed class DataServiceTest
@@ -12,8 +12,9 @@ namespace Tyuiu.KorovinIK.Sprint1.Tas4.V26.Test
             double y = 2;
             double wait = 0.139;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual (wait, res);
+            Assert.AreEqual(wait, res);
 
         }
     }
 }
+
