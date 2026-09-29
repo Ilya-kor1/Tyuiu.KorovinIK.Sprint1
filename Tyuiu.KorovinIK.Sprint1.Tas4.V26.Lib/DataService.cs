@@ -6,7 +6,7 @@ namespace Tyuiu.KorovinIK.Sprint1.Tas4.V26.Lib
         public double Calculate(double x, double y)
         {
             var res = (Math.Atan(x)+y)/ Math.Exp(x+y);
-            return Math.Round(res, 3);
+            return Math.Round(res, 3); 
             
 
         }
