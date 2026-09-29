@@ -14,7 +14,7 @@ namespace Tyuiu.KorovinIK.Sprint1.Task3.V8.Test
             double y = 30;
             double z = 20;
 
-            double wait = 2541.096;
+            double wait = 41.096;
 
             var res = ds.IncomeAmount(x, z, y);
 
